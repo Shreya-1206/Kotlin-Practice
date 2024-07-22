@@ -39,14 +39,18 @@ fun main() {
             val num_long2= 2147483648  // Long
 
          //Floating - float and double are the data types 
-          //FLOAT (4bytes)
+          //FLOAT (4bytes) and precission goes up to 5 to 6 
 
            val num_float  = 8.99 
            println("Float Number : "+num_float)  
 
-          //Double(8bytes)
+          //Double(8bytes) and here precission goes to the 15 to 18
 
-           val num_double  = 82.99 
+           val num_double  = 82.992344556654334 
            println("Double Number : "+num_double)  
+
+          //Scientific Number (power)
+          val num_power = 10E2
+          print("Power Number : "+num_power) 
   
 }
